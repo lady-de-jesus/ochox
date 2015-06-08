@@ -49,8 +49,8 @@ $(document).ready(function(e) {
 		element.innerHTML = 'Latitud: '          + posicion.coords.latitude     + ' <br />' +
 	                        'Longitud:'          + posicion.coords.longitude     + ' <br />'+
 							'Altitud:'           + posicion.coords.altitude     + ' <br />'+
-							'precision:'          + posicion.coords.accuracy      + '<be />'+	
-							'precision de Altitud: '+ posicion.coords.altitudeAccuracy  + '>br />' +
+							'precision:'          + posicion.coords.accuracy      + '<br />'+	
+							'precision de Altitud: '+ posicion.coords.altitudeAccuracy  + '<br />' +
 							'Direccion: '            + posicion.coords.heading        + '<br />' +
 							'Velocidad: '              + posicion.coords.speed          + '<br />' +
 							'Intervalo: '         + posicion.timestamp         + '<br />';
